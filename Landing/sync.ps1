@@ -1,8 +1,9 @@
 $distributionId = $env:FITEDIT_LANDING_CLOUDFRONT_DISTRIBUTIONID
+$bucket = $env:FITEDIT_LANDING_S3_BUCKET
 
 write-host "Syncing with S3..."
 pushd $PSScriptRoot
-aws s3 sync . s3://fitedit.io --exclude '*.ps1' --exclude '.git/*'
+aws s3 sync . s3://$bucket --exclude '*.ps1' --exclude '.git/*'
 
 write-host "Invalidating Cloudfront caches..."
 $createInvalidationResult = aws cloudfront create-invalidation --distribution-id $distributionId --paths "/*" | ConvertFrom-Json
