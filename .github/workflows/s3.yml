@@ -1,0 +1,25 @@
+name: Deploy API to Fly
+on: 
+  push:
+    paths:
+      - '**'
+      - '.github/workflows/s3.yml'
+  pull_request:
+jobs:
+  deploy:
+    name: Deploy to S3
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        # ./ is the repo root
+        working-directory: Landing
+    steps:
+      # This step checks out a copy of your repository.
+      - uses: actions/checkout@v3
+      - uses: Amadevus/pwsh-script@v2
+      - run: pwsh ./sync.ps1
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          FITEDIT_LANDING_CLOUDFRONT_DISTRIBUTIONID: ${{ secrets.FITEDIT_LANDING_CLOUDFRONT_DISTRIBUTIONID }}
