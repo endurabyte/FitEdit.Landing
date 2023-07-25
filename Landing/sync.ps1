@@ -10,6 +10,12 @@ $createInvalidationResult = aws cloudfront create-invalidation --distribution-id
 $invalidationId = $createInvalidationResult.Invalidation.Id
 write-host "Invalidation created with ID: $invalidationId"
 
+$waitForInvalidation = $args[0]
+
+if ($waitForInvalidation -ne $true) {
+    return
+}
+
 # Monitor the invalidation status
 $invalidationStatus = $createInvalidationResult.Invalidation.Status
 while ($invalidationStatus -ne "Completed") {
