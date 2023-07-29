@@ -57,6 +57,12 @@ footer {
 	font-family: "Fira Code"
 }
 
+.brand-eb {
+	color: #d4fb7a;
+	font-family: "Fira Code";
+	font-style: italic;
+}
+
 .header-content {
 	margin-top: 2rem;
 	text-align: center;
