@@ -12,9 +12,8 @@
   	gtag('config', 'G-F2CLMZRWSW');
 	</script>
 
-	<script async
-  	src="https://js.stripe.com/v3/buy-button.js">
-	</script>
+	<script async src="https://js.stripe.com/v3/pricing-table.js"></script>
+	<script src="signup.js"></script>
 
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,36 +28,34 @@
 		</div>
 	</header>
 	<main>
-		<h1>Whip your training data into shape!</h1>
-		<h2 style="color: #fff; text-align: center">Trouble with your training data? FitEdit can help.</h2>
+		<h1>Fix your buggy training data</h1>
+
+		<p style="text-align: center;">
+			<span class="brand">Fit<span class="brand-suffix">Edit</span></span> is training data viewer and editor
+		</p>
 
 		<a class="cta-button" href="get.html">Get FitEdit Now</a>
 		<section class="section">
-			<h2>What is it?</h2>
-				<span class="brand">Fit<span class="brand-suffix">Edit</span></span> is a desktop app for viewing and editing training data.
-		  </p>
-		  <br/>
+			<h2>Fix workout issues</h2>
       <p>
-				<h3>Even if...</h3>
 
 			  <ul>
-			  	<li>your device recorded bogus GPS data
-			  	<li>your heart rate readout redlined for no reason
-			  	<li>you missed a lap key
-			  	<li>you pressed the lap key at the wrong time
-			  	<li>you crammed multiple workouts into one activity 
-			  	<li>you spread one workout across multiple activities or devices
+			  	<li>Workout won't upload
+			  	<li>GPS glitches
+			  	<li>Erratic or inaccurate treadmill pace
+			  	<li>Inaccurate heart rate
+			  	<li>Power drops
+			  	<li>Missed lap key
+			  	<li>Miscounted swim laps
+			  	<li>...and much more
 			  </ul>
-			  
-			  <h3>...or whatever happened, FitEdit can help!<h3/>
 			</p>
+
+			<a class="cta-button" href="get.html">Get FitEdit Now</a>
 		</section>
 
-		<img src="screenshot.png" style="border: none; width: 100%;" alt="Screenshot of FitEdit"/>
-		<p style="font-style: italic; text-align: center">Above: Screenshot of FitEdit</p>
-
 		<section class="section">
-			<h2>Why use it?</h2>
+			<h2>Features</h2>
 			<ul>
 				<li>Slick and intuitive interface</li>
 				<li>Import and edit Garmin FIT files</li>
@@ -70,38 +67,59 @@
 				<li>Supports multiple sports, e.g. run, bike, swim, walk, and many others.</li>
 				<li>Supports Windows, macOS, and Linux</li>
 			</ul>
+
+			<a class="cta-button" href="get.html">Get FitEdit Now</a>
 		</section>
 
 		<section class="section">
-			<h2>Where do I get it?</h2>
-			<p><span class="brand">Fit<span class="brand-suffix">Edit</span></span> in early access, but you can download it now!</p>
 
-			<a class="cta-button" href="get.html">Get FitEdit Now</a>
+			<img src="screenshot.png" style="border: none; width: 100%;" alt="Screenshot of FitEdit"/>
+			<p style="font-style: italic; text-align: center">Above: Screenshot of FitEdit</p>
+
+		</section>
+
+		<section class="section">
+			<h2>Join the email list!</h2>
 
 			<br/>
-			<p>Not ready? You can join our email list!</p>
+			<p>You'll get free useful content about training data and updates about FitEdit.</p>
+			<br/>
+			<p>We take your privacy <a href="privacy.html">seriously<a/>.</p>
+			<br/>
 
-			<iframe class="signup" src="https://cdn.forms-content.sg-form.com/23f69fc7-19f1-11ee-959d-a6043f56594c">
+			<form class="signup" id="signupForm" method="POST" action="/signup">
+    		<label for="name">Name:</label>
+    		<input type="text" class="styled-input" id="name" name="name" required>
+				<br/>
+    		<label for="email">Email:</label>
+    		<input type="email" class="styled-input" id="email" name="email" required>
+
+				<br/>
+    		<label class="signup-message" id="signupHumanAdvice" for="slider">To prove you're human, please move the slider to the right: </label>
+				<br/>
+
+				<div class="slidecontainer">
+    			<input type="range" class="slider" id="slider" name="slider" min="1" max="100" value="1">
+				</div>
+
+				<br/>
+    		<input style="display: none;" type="text" id="hp" name="hp">
+    		<input class="cta-button" id="submitButton" type="submit" value="Submit" disabled>
+
+				<label class="signup-error" id="signupErrorLabel" style="display: none;"></label>
+			</form>
 			</iframe>
 		</section>
 
 		<section class="section">
-			<h2>How much is it?</h2>
-			<p><span class="brand">Fit<span class="brand-suffix">Edit</span></span> is free in read-only mode. Saving edits requires payment. You can sign up now or try the app first.</p>
+			<h2>Pricing</h2>
+			<p><span class="brand">Fit<span class="brand-suffix">Edit</span></span> is free in read-only mode. Saving requires payment. You can try it now for free and sign up later.</p>
+			<a class="cta-button" href="get.html">Get FitEdit Now</a>
 			<br/>
 
-			<p style="text-align: center">
-				<stripe-buy-button
-  					buy-button-id="buy_btn_1NW8TwIg4FIuTIjmrcfxRuzO"
-  					publishable-key="pk_live_51NPB7GIg4FIuTIjmqR7NWFtht1VngmMOLgpPRKoWdfs2GsXGfS0ysbJ4xqeOO6SU2Yw3b9ohOZcMbqgjmnPFbLSr00MpHSnni2"
-						>
-				</stripe-buy-button>
-				<stripe-buy-button
-  					buy-button-id="buy_btn_1NW8UpIg4FIuTIjmmjfiXXCe"
-  					publishable-key="pk_live_51NPB7GIg4FIuTIjmqR7NWFtht1VngmMOLgpPRKoWdfs2GsXGfS0ysbJ4xqeOO6SU2Yw3b9ohOZcMbqgjmnPFbLSr00MpHSnni2"
-						>
-				</stripe-buy-button>
-			</p>
+			<stripe-pricing-table pricing-table-id="prctbl_1NZwVKIg4FIuTIjmHV85l9T0"
+														publishable-key="pk_live_51NPB7GIg4FIuTIjmqR7NWFtht1VngmMOLgpPRKoWdfs2GsXGfS0ysbJ4xqeOO6SU2Yw3b9ohOZcMbqgjmnPFbLSr00MpHSnni2">
+			</stripe-pricing-table>
 
 			<br/>
 			<a class="cta-button" href="mailto:support@fitedit.io">Contact Us</a>
