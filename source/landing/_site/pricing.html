@@ -33,20 +33,20 @@
       </div>
     </header>
 
-     <style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-</style>
+     <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
 
-<div class="container">
-  <h1>404</h1>
+<section class="section">
+  <h2>Pricing</h2>
+  <p><span class="brand">Fit<span class="brand-suffix">Edit</span></span> is free in read-only mode. Saving requires payment. You can try it now for free and sign up later.</p>
+  <br/>
 
-  <p><strong>Page not found</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+  <stripe-pricing-table pricing-table-id="prctbl_1NZwVKIg4FIuTIjmHV85l9T0"
+  publishable-key="pk_live_51NPB7GIg4FIuTIjmqR7NWFtht1VngmMOLgpPRKoWdfs2GsXGfS0ysbJ4xqeOO6SU2Yw3b9ohOZcMbqgjmnPFbLSr00MpHSnni2">
+  </stripe-pricing-table>
+
+  <a class="cta-button" href="get.html">Start Free</a>
+
+</section>
 
   </body>
   <footer>

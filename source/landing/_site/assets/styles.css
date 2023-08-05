@@ -96,6 +96,12 @@ footer {
 	font-size: calc(4rem + 1vw);
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
 .section {
 	margin-top: 2rem;
 }
@@ -126,6 +132,7 @@ footer {
 
 .slidecontainer {
   width: 100%;
+	margin-top: 1rem;
 }
 
 .slider {
@@ -146,15 +153,15 @@ footer {
 .slider::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
   background: #00fa91;
   cursor: pointer;
 }
 
 .slider::-moz-range-thumb {
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
   background: #00fa91;
   cursor: pointer;
 }
@@ -162,9 +169,8 @@ footer {
 .styled-input {
     background-color: #464646;
     border: none;
-    padding: 0.5rem;
-    margin: 0.5rem 0;
-    height: 25px;
+    padding: 1rem;
+    margin: 1rem;
     width: 100%;
 }
 
@@ -184,7 +190,7 @@ footer {
 	padding: 1rem 2rem;
 	border-radius: 1rem;
 	border: none;
-	margin-top: 2rem;
+	margin-top: 1rem;
   margin-left: auto;
   margin-right: auto;
 	text-decoration: none;

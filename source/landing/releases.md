@@ -2,15 +2,9 @@
 layout: default
 ---
 
-<header>
-  <div class="header-content">
-    <span class="brand">Fit<span class="brand-suffix">Edit</span></span>
-  </div>
-</header>
+<main>
+  <h1>Releases</h1>
 
-<h1>Releases</h1>
-<body>
-  <main>
     <a href="https://fitedit-releases.s3.amazonaws.com/win-x64/FitEditSetup.exe" class="cta-button">
       <img src="assets/images/windows.svg" alt="Windows Icon"> Download for Windows
     </a>
