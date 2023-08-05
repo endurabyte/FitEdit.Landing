@@ -1,20 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-F2CLMZRWSW"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+---
+layout: default
+---
 
-    gtag('config', 'G-F2CLMZRWSW');
-  </script>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" href="styles.css">
-	<title>Terms and Conditions</title>
-</head>
-<body>
+<main>
 	<h1>Terms and Conditions</h1>
 	<h2>1. Introduction</h2>
 	<p>These terms and conditions govern your use of our Software as a Service (SaaS) platform. By accessing or using our platform, you agree to be bound by these terms and conditions.</p>
@@ -41,5 +29,4 @@
 <p>These terms and conditions constitute the entire agreement between you and us regarding the use of the platform. If any provision of these terms and conditions is found to be invalid or unenforceable, the remaining provisions will remain in full force and effect. Our failure to enforce any right or provision of these terms and conditions will not be deemed a waiver of such right or provision. Any waiver of any provision of these terms and conditions will be effective only if in writing and signed by us.</p>
 <h2>10. Contact Information</h2>
 <p>If you have any questions about these terms and conditions or the platform, please contact us at support@fitedit.io.</p>
-</body>
-</html>
+</main>
