@@ -12,7 +12,7 @@ jobs:
     defaults:
       run:
         # ./ is the repo root
-        working-directory: Landing
+        working-directory: source/landing
     steps:
       # This step checks out a copy of your repository.
       - uses: actions/checkout@v3
