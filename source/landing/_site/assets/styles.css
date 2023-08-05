@@ -137,10 +137,18 @@ footer {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-	margin-top: 2rem;
-	margin-left: 25%;
-	margin-right: 25%;
+	margin-top: 50px;
+	margin-left: max(50px, 25%);
+	margin-right: max(50px, 25%);
+	margin-bottom: 50px;
 	font-size: calc(0.5rem + 0.5vw);
+}
+
+.footer-link {
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
 }
 
 .section {
