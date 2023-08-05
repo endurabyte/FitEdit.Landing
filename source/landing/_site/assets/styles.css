@@ -229,6 +229,13 @@ footer {
 }
 
 .cta-button img {
+  vertical-align: middle;
+  margin-right: 10px; 
+}
+
+.cta-button span {
+    display: inline-block; /* Ensure the text is inline */
+    vertical-align: middle;
 }
 
 .cta-button {
