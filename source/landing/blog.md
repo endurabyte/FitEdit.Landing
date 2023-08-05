@@ -3,35 +3,8 @@ layout: default
 ---
 
 <main>
-<script src="assets/js/signup.js"></script>
+<h1>Blog posts will be here soon!</h1>
 
-<section class="section">
-<h2>Join the email list!</h2>
+{% include email.html %}
 
-<p>You'll get free useful content about training data and updates about FitEdit.</p>
-<p>We take your privacy <a href="privacy.html">seriously</a>.</p>
-
-<form class="signup" id="signupForm" method="POST" action="/signup">
-      <label for="name">Name:</label>
-      <input type="text" class="styled-input" id="name" name="name" required>
-      <br/>
-      <label for="email">Email:</label>
-      <input type="email" class="styled-input" id="email" name="email" required>
-
-<br/>
-  <label class="signup-message" id="signupHumanAdvice" for="slider">To prove you're human, please move the slider to the right: </label>
-  <br/>
-
-<div class="slidecontainer">
-  <input type="range" class="slider" id="slider" name="slider" min="1" max="100" value="1">
-  </div>
-
-<br/>
-  <input style="display: none;" type="text" id="hp" name="hp">
-  <input class="cta-button" style="width: 100%;" id="submitButton" type="submit" value="Submit" disabled>
-
-<label class="signup-error" id="signupErrorLabel" style="display: none;"></label>
-
-</form>
-</section>
-<main>
+</main>

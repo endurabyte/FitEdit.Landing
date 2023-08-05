@@ -21,14 +21,14 @@
 title: FitEdit - Fitness Data Editor
 email: support@fitedit.io
 description: >- # this means to ignore newlines until "baseurl:"
-  FitEdit is a visual editor for training data. It currently supports Garmin FIT files.
+  FitEdit is a visual editor for training data. 
   Copyright 2023 EnduraByte LLC https://www.endurabyte.com/
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://www.fitedit.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  endurabyte
 
 # Build settings
-theme: minima
+#theme: minima
 plugins:
   - jekyll-feed
 
@@ -43,3 +43,4 @@ plugins:
 exclude:
   - serve.ps1
   - sync.ps1
+  - run.ps1

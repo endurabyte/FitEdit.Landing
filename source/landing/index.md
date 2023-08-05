@@ -9,8 +9,10 @@ layout: default
 Fix your buggy training data with <span class="brand">Fit<span class="brand-suffix">Edit</span></span>
 </p>
 
+<a class="cta-button" href="get.html">Start Free</a>
+
 <section class="section">
-<h2>Fix these issues:</h2>
+<h2>Fix issues</h2>
 <p>
 
 <ul>
@@ -26,10 +28,9 @@ Fix your buggy training data with <span class="brand">Fit<span class="brand-suff
 </p>
 </section>
 
-<a class="cta-button" href="get.html">Start Free</a>
-
-<br/>
 <img src="assets/images/screenshot.png" style="border: none; width: 75%;" class="center" alt="Screenshot of FitEdit"/>
 <p style="font-style: italic; text-align: center">Screenshot of FitEdit</p>
+
+{% include email.html %}
 
 </main>
