@@ -1,3 +1,3 @@
 gem install bundler jekyll
-jekyll build
+bundle exec jekyll build
 & sync.ps1
