@@ -6,7 +6,10 @@ layout: default
 <section class="section">
 
 <h2>Features</h2>
-  <ul>
+
+<p>FitEdit offers powerful and easy-to-use editing and repair features.</p>
+
+<ul>
     <li>Slick and intuitive interface</li>
     <li>Import and edit Garmin FIT files</li>
     <li>Visualize activity data with tables, charts, and maps</li>
