@@ -8,7 +8,7 @@ on:
 jobs:
   deploy:
     name: Deploy to S3
-    runs-on: ubuntu-latest
+    runs-on: jekyll/jekyll
     defaults:
       run:
         # ./ is the repo root
@@ -17,7 +17,6 @@ jobs:
       # This step checks out a copy of your repository.
       - uses: actions/checkout@v3
       - uses: Amadevus/pwsh-script@v2
-      - uses: actions/jekyll-build-pages@v1
       - run: pwsh ./make.ps1
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
