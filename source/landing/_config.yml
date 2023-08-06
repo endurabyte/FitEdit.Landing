@@ -44,3 +44,4 @@ exclude:
   - serve.ps1
   - sync.ps1
   - run.ps1
+  - make.ps1
