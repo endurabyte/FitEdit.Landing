@@ -1,3 +1,3 @@
-sudo gem install bundler jekyll
-sudo bundle exec jekyll build
+bundle install
+bundle exec jekyll build
 & ./sync.ps1
