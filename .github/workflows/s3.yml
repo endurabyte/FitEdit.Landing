@@ -19,7 +19,7 @@ jobs:
       - uses: actions/cache@v3
         with:
           path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          key: ${{ runner.os }}-gems-${{ hashFiles('source/landing/Gemfile.lock') }}
           restore-keys: |
             ${{ runner.os }}-gems-
       - uses: Amadevus/pwsh-script@v2
