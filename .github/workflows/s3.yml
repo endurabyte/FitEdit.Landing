@@ -23,10 +23,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gems-
       - uses: Amadevus/pwsh-script@v2
-      - run: |
-          bundle config path vendor/bundle
-          bundle install --jobs 4 --retry 3
-          pwsh ./make.ps1
+      - run: pwsh ./make.ps1
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
