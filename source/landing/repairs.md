@@ -34,6 +34,6 @@ Please do not send multiple files, and please limit requests to 1 per week.
 
 <h2>File Formats</h2>
 
-<p>We support any file format that FitEdit can load. Currently that include Garmin FIT fit files. We can also work with TCX and GPX files.</p>
+<p>We support any file format that FitEdit can load. Currently that includes Garmin FIT fit files. We can also work with TCX and GPX files.</p>
 
 </main>
