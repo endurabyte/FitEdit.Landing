@@ -1,8 +1,13 @@
 $distributionId = $env:FITEDIT_LANDING_CLOUDFRONT_DISTRIBUTIONID
 $bucket = $env:FITEDIT_LANDING_S3_BUCKET
 
-write-host "Syncing with S3..."
 pushd $PSScriptRoot/_site
+
+if (-not $?) {
+    exit 1
+}
+
+write-host "Syncing with S3..."
 aws s3 sync . s3://$bucket --exclude '*.ps1' --exclude '.git/*'
 
 write-host "Invalidating Cloudfront caches..."
