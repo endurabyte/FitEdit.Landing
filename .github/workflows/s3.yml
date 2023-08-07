@@ -16,6 +16,12 @@ jobs:
     steps:
       # This step checks out a copy of your repository.
       - uses: actions/checkout@v3
+      - uses: actions/cache@v3
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
       - uses: Amadevus/pwsh-script@v2
       - run: pwsh ./make.ps1
         env:
