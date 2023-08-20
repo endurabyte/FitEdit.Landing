@@ -1,1 +1,1 @@
-bundle exec jekyll serve --livereload --host 0.0.0.0 --port 80
+bundle exec jekyll serve --livereload --host 127.0.0.1 --port 8000 --drafts

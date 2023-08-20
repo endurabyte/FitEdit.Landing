@@ -4,7 +4,14 @@ layout: default
 
 <main>
 <h1>Blog</h1>
-<p>Blog posts will be here soon! You can sign up to be notified of new posts.</p>
+
+<ul>
+  {% for post in site.posts %}
+      <h2><a href="{{ post.url }}">{{ post.date | date: "%F" }} | {{ post.title }}</a></h2>
+  {% endfor %}
+</ul>
+
+<hr>
 
 {% include email.html %}
 

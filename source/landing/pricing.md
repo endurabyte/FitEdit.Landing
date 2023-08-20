@@ -7,7 +7,7 @@ layout: default
 
 <section class="section">
   <h2>Pricing</h2>
-  <p><span class="brand">Fit<span class="brand-suffix">Edit</span></span> is free in read-only mode. Saving requires payment. You can try it now for free and sign up later.</p>
+  <p><span class="brand">Fit<span class="brand-suffix">Edit</span></span> is free to import, view, and make edits. Exporting requires payment. You can try it now for free and sign up later in the app.</p>
   <br/>
 
 <stripe-pricing-table pricing-table-id="prctbl_1NZwVKIg4FIuTIjmHV85l9T0"
