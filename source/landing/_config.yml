@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: FitEdit - Fitness Data Editor
+title: FitEdit - Training Data Editor
 email: support@fitedit.io
 description: >- # this means to ignore newlines until "baseurl:"
   FitEdit is a visual editor for training data. 
