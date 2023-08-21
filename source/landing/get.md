@@ -11,7 +11,7 @@ layout: default
 
 <h1>Downloads</h1>
 
-<p><span class="brand">Fit<span class="brand-suffix">Edit</span></span> is in early access since July 2023. We'd like to hear how you use it!</p>
+<p><span class="brand">Fit<span class="brand-suffix">Edit</span></span> has been publicly released since August 2023. We'd like to hear how you use it, and how we can make it even better for you!</p>
 
 <a href="https://fitedit-releases.s3.amazonaws.com/win-x64/FitEditSetup.exe" class="cta-button" id="win-download-link" style="display: none;">
       <img src="assets/images/windows.svg" alt="Windows Icon">
