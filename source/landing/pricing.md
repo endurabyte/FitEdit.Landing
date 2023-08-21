@@ -10,8 +10,8 @@ layout: default
   <p><span class="brand">Fit<span class="brand-suffix">Edit</span></span> is free to import, view, and make edits. Exporting requires payment. You can try it now for free and sign up later in the app.</p>
   <br/>
 
-<stripe-pricing-table pricing-table-id="prctbl_1NZwVKIg4FIuTIjmHV85l9T0"
-  publishable-key="pk_live_51NPB7GIg4FIuTIjmqR7NWFtht1VngmMOLgpPRKoWdfs2GsXGfS0ysbJ4xqeOO6SU2Yw3b9ohOZcMbqgjmnPFbLSr00MpHSnni2">
+<stripe-pricing-table pricing-table-id="prctbl_1NhhgyIg4FIuTIjm3krXu076"
+publishable-key="pk_live_51NPB7GIg4FIuTIjmqR7NWFtht1VngmMOLgpPRKoWdfs2GsXGfS0ysbJ4xqeOO6SU2Yw3b9ohOZcMbqgjmnPFbLSr00MpHSnni2">
 </stripe-pricing-table>
 
 <a class="cta-button" href="get.html">Start Free</a>
