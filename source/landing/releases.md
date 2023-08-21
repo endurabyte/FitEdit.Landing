@@ -21,17 +21,17 @@ layout: default
       <span>Download for Mac (Intel)</span>
     </a>
 
-    <a href="https://fitedit-releases.s3.amazonaws.com/linux-x64/FitEdit.1.0.11-early-access.linux-x64.deb" class="cta-button">
+    <a href="https://fitedit-releases.s3.amazonaws.com/linux-x64/FitEdit.1.0.23.linux-x64.deb" class="cta-button">
       <img src="assets/images/linux.svg" alt="Linux Icon">
       <span>Download for Debian (x64)</span>
     </a>
 
-    <a href="https://fitedit-releases.s3.amazonaws.com/linux-x64/FitEdit.1.0.11-early-access.linux-x64.rpm" class="cta-button">
+    <a href="https://fitedit-releases.s3.amazonaws.com/linux-x64/FitEdit.1.0.23.linux-x64.rpm" class="cta-button">
       <img src="assets/images/linux.svg" alt="Linux Icon">
       <span>Download for RPM (x64)</span>
     </a>
 
-    <a href="https://fitedit-releases.s3.amazonaws.com/linux-x64/FitEdit.1.0.11-early-access.linux-x64.tar.gz" class="cta-button">
+    <a href="https://fitedit-releases.s3.amazonaws.com/linux-x64/FitEdit.1.0.23.linux-x64.tar.gz" class="cta-button">
       <img src="assets/images/linux.svg" alt="Linux Icon">
       <span>Download for Other Linux (x64)</span>
     </a>
