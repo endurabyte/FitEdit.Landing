@@ -86,8 +86,8 @@ img {
 }
 
 p {
-	margin-top: 0.5rem;
-	margin-bottom: 0.5rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
 }
 
 footer {
@@ -242,6 +242,7 @@ footer {
 .cta-button {
 	display: block;
 	width: 50%;
+  max-width: 400px;
 	background-color: var(--green1);
 	color: var(--gray2);
 	padding: 1rem 2rem;
