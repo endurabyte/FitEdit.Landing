@@ -28,8 +28,11 @@ Fix your buggy training data with <span class="brand">Fit<span class="brand-suff
 </p>
 </section>
 
-<img src="assets/images/screenshot.png" style="border: none; width: 75%;" class="center" alt="Screenshot of FitEdit"/>
-<p style="font-style: italic; text-align: center">Screenshot of FitEdit</p>
+
+
+<img src="assets/images/desktop-screenshot.png" style="border: none; width: 75%;" class="center" alt="Screenshot of FitEdit"/>
+<img src="assets/images/android-screenshot.png" style="border: none; width: 25%;" class="center" alt="Screenshot of FitEdit"/>
+<p style="font-style: italic; text-align: center">Screenshots of FitEdit</p>
 
 {% include email.html %}
 
