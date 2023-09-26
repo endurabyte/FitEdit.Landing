@@ -21,19 +21,19 @@ layout: default
       <span>Download for Mac (Intel)</span>
     </a>
 
-    <a href="https://releases.fitedit.io/linux-x64/FitEdit.1.0.23.linux-x64.deb" class="cta-button">
-      <img src="assets/images/linux.svg" alt="Linux Icon">
-      <span>Download for Debian (x64)</span>
-    </a>
+  <a href="https://releases.fitedit.io/linux-x64/FitEdit.2.1.56.linux-x64.deb" class="cta-button">
+    <img src="assets/images/linux.svg" alt="Linux Icon">
+    <span>Download for Debian (x64)</span>
+  </a>
 
-    <a href="https://releases.fitedit.io/linux-x64/FitEdit.1.0.23.linux-x64.rpm" class="cta-button">
-      <img src="assets/images/linux.svg" alt="Linux Icon">
-      <span>Download for RPM (x64)</span>
-    </a>
+  <a href="https://releases.fitedit.io/linux-x64/FitEdit.2.1.56.linux-x64.rpm" class="cta-button">
+    <img src="assets/images/linux.svg" alt="Linux Icon">
+    <span>Download for RPM (x64)</span>
+  </a>
 
-    <a href="https://releases.fitedit.io/linux-x64/FitEdit.1.0.23.linux-x64.tar.gz" class="cta-button">
-      <img src="assets/images/linux.svg" alt="Linux Icon">
-      <span>Download for Other Linux (x64)</span>
+  <a href="https://releases.fitedit.io/linux-x64/FitEdit.2.1.56.linux-x64.tar.gz" class="cta-button">
+    <img src="assets/images/linux.svg" alt="Linux Icon">
+    <span>Download for Other Linux (x64)</span>
     </a>
 
 </main>
