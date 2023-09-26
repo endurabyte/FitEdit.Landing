@@ -11,8 +11,6 @@ layout: default
 
 <h1>Downloads</h1>
 
-<p><span class="brand">Fit<span class="brand-suffix">Edit</span></span> has been publicly released since August 2023. We'd like to hear how you use it, and how we can make it even better for you!</p>
-
 <a href="https://releases.fitedit.io/win-x64/FitEditSetup.exe" class="cta-button" id="win-download-link" style="display: none;">
       <img src="assets/images/windows.svg" alt="Windows Icon">
       <span>Download for Windows</span>
@@ -29,6 +27,12 @@ layout: default
       <img src="assets/images/macos.svg" alt="macOS Icon">
       <span>Download for macOS (Intel)</span>
     </a>
+
+<a href='https://play.google.com/store/apps/details?id=com.endurabyte.fitedit' class="appstore-button" id="android-download-link" style="display: none;">
+    <img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/>
+</a>
+
+<p align="center" id="ios-download-link" style="display: none;">iOS support coming soon!</p>
 
 <a href="/releases.html" class="cta-button">See All Download Options</a>
 

@@ -1,5 +1,14 @@
 async function detectOS() {
   var platform = window.navigator.platform;
+  var userAgent = window.navigator.userAgent;
+
+  // For debugging: Show the platform and user agent on the page
+  //var platformP = document.createElement("p");
+  //var userAgentP = document.createElement("p");
+  //platformP.innerText = platform;
+  //userAgentP.innerText = userAgent;
+  //document.getElementsByTagName('body')[0].appendChild(platformP);
+  //document.getElementsByTagName('body')[0].appendChild(userAgentP);
 
   if (/Mac/.test(platform)) {
 
@@ -11,6 +20,12 @@ async function detectOS() {
     text.style.display = 'block';
   } else if (/Win/.test(platform)) {
     var link = document.getElementById('win-download-link');
+    link.style.display = 'block';
+  } else if (/Android/.test(userAgent)) {
+    var link = document.getElementById('android-download-link');
+    link.style.display = 'block';
+  } else if (/iPhone|iPad|iPod/.test(userAgent)) {
+    var link = document.getElementById('ios-download-link');
     link.style.display = 'block';
   }
 }

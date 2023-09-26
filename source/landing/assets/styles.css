@@ -270,6 +270,13 @@ footer {
 	background-color: var(--green2);
 }
 
+.appstore-button img {
+	display: block;
+	width: 75%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* nav menu follows */
 
