@@ -7,7 +7,7 @@ layout: default
 
 <section class="section">
   <h2>Pricing</h2>
-  <p><span class="brand">Fit<span class="brand-suffix">Edit</span></span> is free to import, view, edit, and export files. Sync between devices and integration with other platforms requires an account and subscription. Try it now for free and sign up later in the app.</p>
+  <p><span class="brand">Fit<span class="brand-suffix">Edit</span></span> is free to import, view, edit, and export files. Sync between devices and integration with other platforms is available with a subscription. Try it now for free and sign up later in the app.</p>
   <br/>
 
 <stripe-pricing-table pricing-table-id="prctbl_1NhhgyIg4FIuTIjm3krXu076"
