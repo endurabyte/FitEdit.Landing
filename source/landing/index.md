@@ -16,7 +16,7 @@ Fix your buggy training data with <span class="brand">Fit<span class="brand-suff
       
 <p>
 FitEdit works on all your devices. View, edit, and repair your FIT files. Sync* between devices. Sync* with other platforms such as Garmin and Strava. <a href="features.html">See all features</a>
-    <p>* Subscription required</p>
+    <p>* Available with a subscription</p>
 </p>
 </section>
 
