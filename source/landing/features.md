@@ -72,7 +72,7 @@ layout: default
   <li>Sync activity name and description with other platforms</li>
 </ul>
 
-<p>* Subscription required</p>
+<p>* Available with a subscription</p>
 <a class="cta-button" href="get.html">Start Free</a>
 
 </section>
