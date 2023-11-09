@@ -20,12 +20,6 @@ FitEdit works on all your devices. View, edit, and repair your FIT files. Sync* 
 </p>
 </section>
 
-
-
-<img src="assets/images/desktop-screenshot.png" style="border: none; width: 75%;" class="center" alt="Screenshot of FitEdit"/>
-<img src="assets/images/android-screenshot.png" style="border: none; width: 25%;" class="center" alt="Screenshot of FitEdit"/>
-<p style="font-style: italic; text-align: center">Screenshots of FitEdit</p>
-
 {% include email.html %}
 
 </main>
