@@ -10,14 +10,21 @@ This page has the following contents:
 - Automatic and Manual Cookie Sync
 - Security
 - Automatic Cookie Sync (Chrome)
+  - Installing the Chrome Extension
+  - Configuring the Chrome Extension
 - Automatic Cookie Sync (Firefox)
-- Manual Cookie Sync
+  - Installing the Firefox Extension
+  - Configuring the Firefox Extension
+- Manual Cookie Entry
+  - Get Cookies (Chrome)
+  - Get Cookies (Firefox)
+  - Enter Cookies in FitEdit
 
 ## Introduction
 
 FitEdit offers extra features from within the app if you grant it access to your Garmin Connect account. These features include uploading activity files to Garmin Connect, editing activity titles and descriptions, and bulk download of activities from Garmin Connect. If you don't want to use these features, then you don't need to take the following steps.
 
-## Automatic and Manual Cookie Sync
+## Automatic Cookie Sync and Manual Cookie Entry
 
 FitEdit uses the same web cookies stored in your browser to access Garmin Connect. You can provide FitEdit with these cookies in two ways: automatically and manually. 
 
@@ -169,7 +176,7 @@ If you did not already have the FitEdit app running, launch it now and navigate 
 
 ![FitEdit OK](../assets/images/cookie-sync/garmin/automatic/firefox/setup/12-FitEditOK.png){:.center}
 
-## Manual Cookie Sync
+## Manual Cookie Entry
 
 Follow these steps to manually copy-paste cookie values from your web browser into FitEdit. FitEdit uses the following Garmin Connect cookies:
 
@@ -178,5 +185,46 @@ Follow these steps to manually copy-paste cookie values from your web browser in
 
 Note that while the _GARMIN_SSO_CUST_ID_ does not change unless you sign in with a different Garmin Connect account, the _SESSIONID_ expires after some time, usually a few days.
 
-To be completed...
+### Get Cookies (Chrome)
 
+Open the developer tools. _Kebab Menu => More tools => Developer tools_ 
+
+![Chrome Menu](../assets/images/cookie-sync/garmin/manual/chrome/1-Menu.png){:.center}
+
+![Developer Tools](../assets/images/cookie-sync/garmin/manual/chrome/2-DeveloperTools.png){:.center}
+
+The developer tools pane appears. Click on the _Application_ tab. On the left pane, under _Storage_, expand _Cookies_. Select _https://connect.garmin.com_. Copy the values associated with the cookie names _GARMIN_SSO_CUST_ID_ and _SESSIONID_.
+
+![Developer Tools](../assets/images/cookie-sync/garmin/manual/chrome/3-SSO-ID.png){:.center}
+
+![Developer Tools](../assets/images/cookie-sync/garmin/manual/chrome/4-SESSIONID.png){:.center}
+
+Enter the values into FitEdit. See below for instructions.
+
+### Get Cookies (Firefox)
+
+Open the web developer tools. _Hamburger Menu => More tools => Web Developer Tools_ 
+
+![Firefox Menu](../assets/images/cookie-sync/garmin/manual/firefox/1-Menu.png){:.center}
+
+![Firefox More tools](../assets/images/cookie-sync/garmin/manual/firefox/2-MoreTools.png){:.center}
+
+![Firefox More tools](../assets/images/cookie-sync/garmin/manual/firefox/3-WEbDeveloperTools.png){:.center}
+
+The web developer tools pane appears. Click on the _Storage_ tab. On the left pane, expand _Cookies_. Select _https://connect.garmin.com_. Copy the values associated with the cookie names _GARMIN_SSO_CUST_ID_ and _SESSIONID_.
+
+![Developer Tools](../assets/images/cookie-sync/garmin/manual/firefox1/4-SSO-ID.png){:.center}
+
+![Developer Tools](../assets/images/cookie-sync/garmin/manual/firefox/5-SESSIONID.png){:.center}
+
+Next, enter the values into FitEdit. See below for instructions.
+
+### Enter Cookies in FitEdit
+
+To enter cookie values in FitEdit, start FitEdit. Navigate to the _Settings_ tab, and scroll down to _Integrations_. Under _Garmin Connect_, enter the value for _GARMIN_SSO_CUST_ID_ in the text box for _SSO ID_. Then, enter the value for _SESSIONID_ in the text box for _Session ID_. Click _Sign in to Garmin_. 
+
+![Developer Tools](../assets/images/cookie-sync/garmin/manual/fitedit/1-CookieEntry.png){:.center}
+
+After a few seconds, you should be signed in.
+
+![Developer Tools](../assets/images/cookie-sync/garmin/manual/fitedit/2-SignedIn.png){:.center}

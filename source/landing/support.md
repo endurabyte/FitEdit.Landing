@@ -2,8 +2,16 @@
 layout: default
 ---
 
-<main>
-	<h1>Support</h1>
-	<p style="text-align: center;">We offer free email support.</p>
-	<a class="cta-button" href="mailto:support@fitedit.io">Get Help</a>
-</main>
+# Support
+
+## Support Pages
+
+[User Agent Terms](./support/user-agent-terms.html)
+
+[Signing in to Garmin](./support/garmin-signin.html)
+
+## Email Support
+
+We offer free support by email.
+
+<a class="cta-button" href="mailto:support@fitedit.io">Get Help</a>
