@@ -104,11 +104,11 @@ Open the extensions manager. _Hamburger Menu => Add-ons and themes_
 
 ![Firefox Add-ons and themes](../assets/images/cookie-sync/garmin/automatic/firefox/install/1-Menu-Addons.png){:.center}
 
-Press _the settings gear_ and select _Debug add-ons_
+Click on the settings cog and select _Debug add-ons_
 
 ![Debug Add-ons](../assets/images/cookie-sync/garmin/automatic/firefox/install/2-Extensions-CogMenu-DebugAddOns.png){:.center}
 
-Press _Load Temporary Add-on_
+Click _Load Temporary Add-on_
 
 ![Load Temporary Add-on](../assets/images/cookie-sync/garmin/automatic/firefox/install/3-LoadTemporaryAddOn.png){:.center}
 
