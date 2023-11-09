@@ -25,7 +25,7 @@ layout: default
 
 
   <p>
-    FitEdit also becomes your user agent when you entrust it with your username and password to these services. FitEdit securely stores your credentials in encrypted database fields, and you can access the features of these services through FitEdit, just the same as a web browser. The credentials never leave your device except when sent to the online service, for example Garmin Connect or Strava. For this reason you must log in on each device that you use FitEdit on. You can log out at any time, which deletes your stored credentials from the local FitEdit database.
+    FitEdit like a web browser becomes your user agent when you entrust it with your credentials to web services. FitEdit securely stores your credentials, and you can access the features of these services through FitEdit, just the same as a web browser.
   </p>
 
   <h3>Garmin Connect</h3>
