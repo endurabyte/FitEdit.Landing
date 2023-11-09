@@ -31,7 +31,7 @@ layout: default
   <h3>Garmin Connect</h3>
 
   <p align="center">
-    <img src="garmin_connect_blue.png" width="200"/>
+    <img src="../assets/images/user-agent-terms/garmin_connect_blue.png" width="200"/>
   </p>
 
   <p>
@@ -39,7 +39,7 @@ layout: default
   </p>
 
   <p align="center">
-    <img src="garmin_connect_consent.png" height="500"/>
+    <img src="../assets/images/user-agent-terms/garmin_connect_consent.png" height="500"/>
     <br/>
     <i>Above: Garmin Connect consent page</i>
   </p>
@@ -55,7 +55,7 @@ layout: default
   <h3>Strava</h3>
 
   <p align="center">
-    <img src="powered_by_strava.png" widht="200">
+    <img src="../assets/images/user-agent-terms/powered_by_strava.png" widht="200">
   </p>
 
   <p>
@@ -63,7 +63,7 @@ layout: default
   </p>
 
   <p align="center">
-    <img src="strava_consent.png" height="500"/>
+    <img src="../assets/images/user-agent-terms/strava_consent.png" height="500"/>
     <br/>
     <i>Above: Strava consent page</i>
   </p>
