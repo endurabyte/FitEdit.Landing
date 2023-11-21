@@ -1,1 +1,1 @@
-Landing page for FitEdit
+Landing page for [FitEdit](https://www.fitedit.io/)
