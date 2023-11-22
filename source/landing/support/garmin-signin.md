@@ -46,7 +46,9 @@ There are two steps: installing the extension and configuring the extension.
 
 ### Installing the Chrome extension
 
-The FitEdit extension will be added to the Chrome Web Store soon. In the meantime, you can perform a manual installation. Download the [extension zip file](https://releases.fitedit.io/browser/extension/chrome.zip) and extract it somewhere, for example in your Downloads folder.
+The FitEdit extension is on the [Chrome Web Store](https://chromewebstore.google.com/u/1/detail/fitedit-training-data-man/bfhphpljoncaiamnglpmlcaopgpclmal). 
+
+Alternatively, you can install the extension manually. Download the [extension zip file](https://releases.fitedit.io/browser/extension/chrome.zip) and extract it somewhere, for example in your Downloads folder.
 
 Open the extensions manager. _Kebab Menu => Extensions => Manage Extensions_
 ![Chrome Manage Extensions](../assets/images/cookie-sync/garmin/automatic/chrome/install/1-Menu-Extensions-ManageExtensions.png){:.center}
@@ -105,7 +107,9 @@ There are two steps: installing the extension and configuring the extension.
 
 ### Installing the Firefox extension
 
-The FitEdit extension will be added to the FireFox Add-ons store soon. In the meantime, you can perform a manual installation. Download the [extension zip file](https://releases.fitedit.io/browser/extension/firefox.zip) and extract it somewhere, for example in your Downloads folder.
+The FitEdit extension is on the [Firefox Add-Ons Store](https://addons.mozilla.org/en-US/firefox/addon/fitedit-training-data-manager/). 
+
+Alternatively, you can install the extension manually. Download the [extension zip file](https://releases.fitedit.io/browser/extension/firefox.zip) and extract it somewhere, for example in your Downloads folder.
 
 Open the extensions manager. _Hamburger Menu => Add-ons and themes_
 
@@ -213,7 +217,7 @@ Open the web developer tools. _Hamburger Menu => More tools => Web Developer Too
 
 The web developer tools pane appears. Click on the _Storage_ tab. On the left pane, expand _Cookies_. Select _https://connect.garmin.com_. Copy the values associated with the cookie names _GARMIN_SSO_CUST_ID_ and _SESSIONID_.
 
-![Developer Tools](../assets/images/cookie-sync/garmin/manual/firefox1/4-SSO-ID.png){:.center}
+![Developer Tools](../assets/images/cookie-sync/garmin/manual/firefox/4-SSO-ID.png){:.center}
 
 ![Developer Tools](../assets/images/cookie-sync/garmin/manual/firefox/5-SESSIONID.png){:.center}
 
