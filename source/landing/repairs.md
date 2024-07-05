@@ -16,7 +16,7 @@ layout: default
 <h2>Instructions</h2>
 
 <p>
-Attach one file to the email, and include in the email body a description of
+Attach one or more files to the email, and include in the email body a description of
 the problem and the name of the device that created the file. Example device names include "Garmin Forerunner 235" and "Suunto Peak 5".
 </p>
 
