@@ -20,10 +20,6 @@ Attach one file to the email, and include in the email body a description of
 the problem and the name of the device that created the file. Example device names include "Garmin Forerunner 235" and "Suunto Peak 5".
 </p>
 
-<p>
-Please do not send multiple files, and please limit requests to 1 per week.
-</p>
-
 <h2>What to Expect</h2>
 
 <p>We'll make a best-effort attempt to fix the problem. Example fixes include power drops, heart rate spikes, and GPS glitches. If you state that the file won't upload to Garmin Connect, Strava, Training Peaks, or another service, we'll try to make it uploadable.</p>
