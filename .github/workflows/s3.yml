@@ -1,4 +1,4 @@
-name: Deploy API to Fly
+name: Deploy to S3
 on: 
   push:
     paths:
