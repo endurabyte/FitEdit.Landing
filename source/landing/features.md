@@ -58,7 +58,6 @@ layout: default
   <li>Try three distinct repair strategies: Additive, Subtractive, and Backfill</li>
   <li>Fill in missing messages: Lap, Session, Activity</li>
   <li>Scan and recover lost records</li>
-  <li>View raw byte data with built-in hex viewer</li>
 </ul>
 
 <h2>Synchronize</h2>
