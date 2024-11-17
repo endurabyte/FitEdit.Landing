@@ -17,7 +17,7 @@ layout: default
       <span>(x64)</span>
 </a>
 
-<a href="https://releases.fitedit.io/win-arm64/FitEdit-winSetup.exe" class="cta-button" id="win-arm64-download-link" style="display: none;">
+<a href="https://releases.fitedit.io/win-arm64/FitEdit-win-Setup.exe" class="cta-button" id="win-arm64-download-link" style="display: none;">
       <img src="assets/images/windows.svg" alt="Windows Icon">
       <span>Download for Windows</span>
       <span>(arm64)</span>
