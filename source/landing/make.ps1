@@ -3,4 +3,4 @@ sudo gem install jekyll ffi minima jekyll-feed addressable terminal-table webric
 bundle install --jobs 4 --retry 3
 bundle config path vendor/bundle
 bundle exec jekyll build
-# & ./sync.ps1
+& ./sync.ps1
