@@ -13,7 +13,7 @@ async function detectOS() {
   if (/Mac/.test(platform)) {
 
     var link = document.getElementById('mac-x64-download-link');
-    var link2 = document.getElementById('mac-arm-download-link');
+    var link2 = document.getElementById('mac-arm64-download-link');
     var text = document.getElementById('mac-help-text');
 
     link.style.display = 'block';
@@ -23,7 +23,7 @@ async function detectOS() {
   } else if (/Win/.test(platform)) {
 
     var link = document.getElementById('win-x64-download-link');
-    var link2 = document.getElementById('win-arm-download-link');
+    var link2 = document.getElementById('win-arm64-download-link');
     var text = document.getElementById('win-help-text');
 
     link.style.display = 'block';
@@ -33,7 +33,7 @@ async function detectOS() {
   } else if (/Linux/.test(platform)) {
 
     var link = document.getElementById('linux-x64-download-link');
-    var link2 = document.getElementById('linux-arm-download-link');
+    var link2 = document.getElementById('linux-arm64-download-link');
 
     link.style.display = 'block';
     link2.style.display = 'block';

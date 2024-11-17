@@ -39,16 +39,16 @@ layout: default
 
 <p id="mac-help-text" style="display: none; text-align: center; padding: 15px;">Not sure which Mac you have? Choose Intel - It works on both!</p>
 
-<a href="https://releases.fitedit.io/osx-arm64/FitEdit.pkg" class="cta-button" id="mac-arm-download-link" title="For Apple M1, M2 CPUs or newer" style="display: none;">
-      <img src="assets/images/macos.svg" alt="macOS Icon">
-      <span>Download for macOS</span>
-      <span>(arm64 / Apple Silicon)</span>
-</a>
-
 <a href="https://releases.fitedit.io/osx-x64/FitEdit.pkg" class="cta-button" id="mac-x64-download-link" style="display: none;" title="For Intel Core CPUs">
       <img src="assets/images/macos.svg" alt="macOS Icon">
       <span>Download for macOS</span>
       <span>(arm64 / Intel)</span>
+</a>
+
+<a href="https://releases.fitedit.io/osx-arm64/FitEdit.pkg" class="cta-button" id="mac-arm64-download-link" title="For Apple M1, M2 CPUs or newer" style="display: none;">
+      <img src="assets/images/macos.svg" alt="macOS Icon">
+      <span>Download for macOS</span>
+      <span>(arm64 / Apple Silicon)</span>
 </a>
 
 <!-- <a href='https://play.google.com/store/apps/details?id=com.endurabyte.fitedit' class="appstore-button" id="android-download-link" style="display: none;"> -->
