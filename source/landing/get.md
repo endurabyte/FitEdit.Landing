@@ -42,7 +42,7 @@ layout: default
 <a href="https://releases.fitedit.io/osx-x64/FitEdit-osx-Setup.pkg" class="cta-button" id="mac-x64-download-link" style="display: none;" title="For Intel Core CPUs">
       <img src="assets/images/macos.svg" alt="macOS Icon">
       <span>Download for macOS</span>
-      <span>(arm64 / Intel)</span>
+      <span>(x64 / Intel)</span>
 </a>
 
 <a href="https://releases.fitedit.io/osx-arm64/FitEdit-osx-Setup.pkg" class="cta-button" id="mac-arm64-download-link" title="For Apple M1, M2 CPUs or newer" style="display: none;">
