@@ -12,7 +12,7 @@ I've been working on FitEdit a lot in the last two months, and yesterday, I rele
 
 With FitEdit, you can change the data behind the online charts and tables. You can modify the second-by-second data including pace, heart rate, GPS latitude and longitude, timestamps, cadence, power, and many other fields. You can even change which device was used! 
 
-Try FitEdit today. It's free to import, view, edit, and export your data. Syncing of data between devices and with third-parties like Garmin and Strava is available with a subscription.
+Try FitEdit today. You can import, view, edit, and export your data. Pull data from third-parties like Garmin or Strava.
 
 FitEdit is still early in development. There's more to come! To be the first to know, be sure to sign up for email list. 
 

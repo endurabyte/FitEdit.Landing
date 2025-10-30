@@ -62,17 +62,14 @@ layout: default
 
 <h2>Synchronize</h2>
 
-<p>FitEdit syncs between all your devices and with third-party platforms such as Garmin and Strava.*</p>
+<p>FitEdit pulls data from third-parties like Garmin or Strava.</p>
 
 <ul>
-  <li>Sync activities between devices</li>
   <li>Import activities from other platforms</li>
   <li>Export activities to other platforms</li>
   <li>Sync activity name and description with other platforms</li>
 </ul>
-
-<p>* Available with a subscription</p>
-<a class="cta-button" href="get.html">Start Free</a>
+<a class="cta-button" href="get.html">Get Started</a>
 
 </section>
 </main>

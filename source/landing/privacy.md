@@ -9,7 +9,7 @@ layout: default
 
 <h2>Philosophy</h2>
 <p>We hold ourselves to a high standard with your data. We treat you the way we would want to be treated.</p>
-<p>Our business model is based on your subscription fee. We do not sell your data. We only use your data to provide the services you have given it for.</p>
+<p>We do not sell your data. We only use your data to provide the services you have given it for.</p>
 
 <h2>Jurisdiction</h2>
 <p>We will comply with any legally valid demand for your data, such as by warrant from law enforcement.</p>
@@ -19,7 +19,6 @@ layout: default
 <p>We may collect personal information such as your name and email address when you provide it to us through our website or the app.</p>
 <p>We may also collect non-personal information, such as your IP address, browser type, and operating system, to improve our website and services and to analyze trends.</p>
 <p>If you authorize it, we collect your fitness data such as your workouts.</p>
-<p>We do not collect your payment information. That is handled by our payment processor.</p>
 <p>We will delete any of your data you ask us to.</p>
 
 <h2>Data Shared</h2>
